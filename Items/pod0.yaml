@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: my-app
+spec: 
+  containers:
+    - image: kolesatost/node-web-app:latest
+      name: express
+...
